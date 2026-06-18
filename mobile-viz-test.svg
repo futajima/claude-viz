@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect width="680" height="400" fill="#1a1a2e"/>
+  <text x="340" y="40" text-anchor="middle" fill="#e8e8f0" font-size="22" font-weight="bold">スマホ表示テスト</text>
+  <text x="340" y="65" text-anchor="middle" fill="#a0a0b0" font-size="14">Claude Code ビジュアライズ確認用</text>
+  <g transform="translate(80, 100)">
+    <rect x="0" y="0" width="240" height="80" rx="10" fill="#2a2a4a"/>
+    <circle cx="30" cy="40" r="18" fill="#4a90d9"/>
+    <text x="30" y="46" text-anchor="middle" fill="white" font-size="16" font-weight="bold">1</text>
+    <text x="60" y="35" fill="#e8e8f0" font-size="15" font-weight="bold">日本語テキスト</text>
+    <text x="60" y="55" fill="#a0a0b0" font-size="12">正しく表示されているか</text>
+    <rect x="260" y="0" width="240" height="80" rx="10" fill="#2a2a4a"/>
+    <circle cx="290" cy="40" r="18" fill="#e86a4a"/>
+    <text x="290" y="46" text-anchor="middle" fill="white" font-size="16" font-weight="bold">2</text>
+    <text x="320" y="35" fill="#e8e8f0" font-size="15" font-weight="bold">色の表示</text>
+    <text x="320" y="55" fill="#a0a0b0" font-size="12">カラーが見えているか</text>
+  </g>
+  <g transform="translate(80, 200)">
+    <rect x="0" y="0" width="240" height="80" rx="10" fill="#2a2a4a"/>
+    <circle cx="30" cy="40" r="18" fill="#5ab88a"/>
+    <text x="30" y="46" text-anchor="middle" fill="white" font-size="16" font-weight="bold">3</text>
+    <text x="60" y="35" fill="#e8e8f0" font-size="15" font-weight="bold">図形・線</text>
+    <text x="60" y="55" fill="#a0a0b0" font-size="12">丸・四角が綺麗に出るか</text>
+    <rect x="260" y="0" width="240" height="80" rx="10" fill="#2a2a4a"/>
+    <circle cx="290" cy="40" r="18" fill="#d4a44a"/>
+    <text x="290" y="46" text-anchor="middle" fill="white" font-size="16" font-weight="bold">4</text>
+    <text x="320" y="35" fill="#e8e8f0" font-size="15" font-weight="bold">拡大時の鮮明さ</text>
+    <text x="320" y="55" fill="#a0a0b0" font-size="12">ピンチインで確認</text>
+  </g>
+  <rect x="80" y="310" width="520" height="50" rx="8" fill="#3a3a5a"/>
+  <text x="340" y="335" text-anchor="middle" fill="#9090c0" font-size="12">jsDelivr CDN テスト用 SVG — 2026-06-19</text>
+</svg>
