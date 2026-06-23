@@ -1,0 +1,153 @@
+<svg viewBox="0 0 720 1080" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif" role="img">
+<title>茂原 vs 八積 土地比較スコアカード</title>
+<desc>9軸重み付けスコアで八積51.5、茂原36.0。八積が優位。</desc>
+<rect x="0" y="0" width="720" height="1080" fill="#FFFFFF"/>
+
+<text x="36" y="48" font-size="26" font-weight="500" fill="#111827">新築用地スコアカード</text>
+<text x="36" y="74" font-size="14" fill="#6B7280">茂原（高師/茂原1554-11） vs 八積（長生村岩沼） ・ 重み付け9軸評価</text>
+
+<!-- verdict banner -->
+<rect x="36" y="96" width="648" height="92" rx="12" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.5"/>
+<text x="56" y="130" font-size="15" fill="#0F766E" font-weight="500">結論</text>
+<text x="56" y="160" font-size="22" font-weight="500" fill="#0F766E">八積を買うべき</text>
+<text x="56" y="180" font-size="13" fill="#475569">消えない差は災害リスク。繰り返し浸水する街で“浸水ゾーン”を引く理由が弱い。</text>
+<rect x="470" y="112" width="96" height="60" rx="8" fill="#0F766E"/>
+<text x="518" y="138" font-size="13" fill="#CCFBF1" text-anchor="middle">八積</text>
+<text x="518" y="162" font-size="22" font-weight="500" fill="#FFFFFF" text-anchor="middle">51.5</text>
+<rect x="576" y="112" width="96" height="60" rx="8" fill="#FEE2E2"/>
+<text x="624" y="138" font-size="13" fill="#B91C1C" text-anchor="middle">茂原</text>
+<text x="624" y="162" font-size="22" font-weight="500" fill="#B91C1C" text-anchor="middle">36.0</text>
+
+<!-- hazard strip -->
+<text x="36" y="226" font-size="16" font-weight="500" fill="#111827">災害リスク（重ねるハザードマップ・ピンポイント判定）</text>
+<rect x="36" y="240" width="316" height="120" rx="10" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+<text x="52" y="266" font-size="14" font-weight="500" fill="#B91C1C">茂原物件</text>
+<text x="52" y="290" font-size="12.5" fill="#7F1D1D">洪水: 想定最大規模 0.5m未満 浸水ゾーン内</text>
+<text x="52" y="310" font-size="12.5" fill="#7F1D1D">（薄黄 #F7F5A9・周辺25/25が該当＝境界外でなく内側）</text>
+<text x="52" y="330" font-size="12.5" fill="#7F1D1D">2019/2023 実績浸水・地盤沈下・市街地内水リスク</text>
+<text x="52" y="350" font-size="12.5" fill="#991B1B">津波/高潮/土砂: 区域外</text>
+
+<rect x="368" y="240" width="316" height="120" rx="10" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+<text x="384" y="266" font-size="14" font-weight="500" fill="#15803D">八積物件</text>
+<text x="384" y="290" font-size="12.5" fill="#166534">洪水: 区域外（タイル該当なし）</text>
+<text x="384" y="310" font-size="12.5" fill="#166534">津波・高潮・内水・土砂: すべて区域外</text>
+<text x="384" y="330" font-size="12.5" fill="#166534">海岸から約4-5km内陸／全レイヤー該当なし</text>
+<text x="384" y="350" font-size="12.5" fill="#15803D">※液状化のみ要実地盤調査（砂地）</text>
+
+<!-- legend for bars -->
+<text x="36" y="398" font-size="16" font-weight="500" fill="#111827">9軸評価（各5点満点・棒は素点）</text>
+<rect x="430" y="386" width="12" height="12" rx="2" fill="#0F766E"/>
+<text x="448" y="397" font-size="12" fill="#475569">八積</text>
+<rect x="500" y="386" width="12" height="12" rx="2" fill="#C2410C"/>
+<text x="518" y="397" font-size="12" fill="#475569">茂原</text>
+
+<!-- axis rows -->
+<g font-size="12.5" fill="#374151">
+<!-- row template: label(x36), weight chip, two bars from x250, scale 1pt=72px -->
+
+<!-- 1 災害 x3 -->
+<text x="36" y="430" font-weight="500">1. 災害リスク</text>
+<rect x="150" y="420" width="34" height="16" rx="8" fill="#FEE2E2"/><text x="167" y="432" font-size="11" fill="#B91C1C" text-anchor="middle">×3</text>
+<rect x="250" y="420" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="420" width="360" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="430" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="430" width="144" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="432" font-size="11" fill="#0F766E">5.0/2.0</text>
+
+<!-- 2 地盤 x2 -->
+<text x="36" y="468" font-weight="500">2. 地盤・改良費</text>
+<rect x="150" y="458" width="34" height="16" rx="8" fill="#FEF3C7"/><text x="167" y="470" font-size="11" fill="#92400E" text-anchor="middle">×2</text>
+<rect x="250" y="458" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="458" width="216" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="468" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="468" width="180" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="470" font-size="11" fill="#475569">3.0/2.5</text>
+
+<!-- 3 法規 x2 -->
+<text x="36" y="506" font-weight="500">3. 法規制</text>
+<rect x="150" y="496" width="34" height="16" rx="8" fill="#FEF3C7"/><text x="167" y="508" font-size="11" fill="#92400E" text-anchor="middle">×2</text>
+<rect x="250" y="496" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="496" width="288" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="506" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="506" width="180" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="508" font-size="11" fill="#475569">4.0/2.5</text>
+
+<!-- 4 インフラ x1 -->
+<text x="36" y="544" font-weight="500">4. インフラ引込</text>
+<rect x="150" y="534" width="34" height="16" rx="8" fill="#E0E7FF"/><text x="167" y="546" font-size="11" fill="#3730A3" text-anchor="middle">×1</text>
+<rect x="250" y="534" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="534" width="252" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="544" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="544" width="288" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="546" font-size="11" fill="#475569">3.5/4.0</text>
+
+<!-- 5 アクセス x1 -->
+<text x="36" y="582" font-weight="500">5. アクセス利便</text>
+<rect x="150" y="572" width="34" height="16" rx="8" fill="#E0E7FF"/><text x="167" y="584" font-size="11" fill="#3730A3" text-anchor="middle">×1</text>
+<rect x="250" y="572" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="572" width="252" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="582" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="582" width="324" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="584" font-size="11" fill="#475569">3.5/4.5</text>
+
+<!-- 6 形状方位 x1 -->
+<text x="36" y="620" font-weight="500">6. 形状・方位</text>
+<rect x="150" y="610" width="34" height="16" rx="8" fill="#E0E7FF"/><text x="167" y="622" font-size="11" fill="#3730A3" text-anchor="middle">×1</text>
+<rect x="250" y="610" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="610" width="324" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="620" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="620" width="216" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="622" font-size="11" fill="#475569">4.5/3.0</text>
+
+<!-- 7 総額 x1 -->
+<text x="36" y="658" font-weight="500">7. 総額(諸費用込)</text>
+<rect x="150" y="648" width="34" height="16" rx="8" fill="#E0E7FF"/><text x="167" y="660" font-size="11" fill="#3730A3" text-anchor="middle">×1</text>
+<rect x="250" y="648" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="648" width="324" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="658" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="658" width="180" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="660" font-size="11" fill="#475569">4.5/2.5</text>
+
+<!-- 8 環境将来 x1 -->
+<text x="36" y="696" font-weight="500">8. 環境・資産価値</text>
+<rect x="150" y="686" width="34" height="16" rx="8" fill="#E0E7FF"/><text x="167" y="698" font-size="11" fill="#3730A3" text-anchor="middle">×1</text>
+<rect x="250" y="686" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="686" width="252" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="696" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="696" width="216" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="698" font-size="11" fill="#475569">3.5/3.0</text>
+
+<!-- 9 権利 x1 -->
+<text x="36" y="734" font-weight="500">9. 権利関係</text>
+<rect x="150" y="724" width="34" height="16" rx="8" fill="#E0E7FF"/><text x="167" y="736" font-size="11" fill="#3730A3" text-anchor="middle">×1</text>
+<rect x="250" y="724" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="724" width="216" height="7" rx="3" fill="#0F766E"/>
+<rect x="250" y="734" width="360" height="7" rx="3" fill="#E5E7EB"/><rect x="250" y="734" width="216" height="7" rx="3" fill="#C2410C"/>
+<text x="624" y="736" font-size="11" fill="#475569">3.0/3.0</text>
+</g>
+
+<!-- spec mini table -->
+<line x1="36" y1="762" x2="684" y2="762" stroke="#E5E7EB" stroke-width="1"/>
+<text x="36" y="792" font-size="16" font-weight="500" fill="#111827">主要スペック</text>
+<g font-size="12.5">
+<text x="36" y="820" fill="#6B7280">価格 / 坪単価</text>
+<text x="280" y="820" fill="#C2410C">1,300万 / 14.4万円</text>
+<text x="500" y="820" fill="#0F766E">800万 / 8.2万円</text>
+
+<text x="36" y="846" fill="#6B7280">土地面積</text>
+<text x="280" y="846" fill="#374151">298m² / 90.1坪</text>
+<text x="500" y="846" fill="#374151">319m² / 96.5坪</text>
+
+<text x="36" y="872" fill="#6B7280">駅徒歩</text>
+<text x="280" y="872" fill="#374151">茂原駅11分(特急停車)</text>
+<text x="500" y="872" fill="#374151">八積駅3分(普通のみ)</text>
+
+<text x="36" y="898" fill="#6B7280">接道・方位</text>
+<text x="280" y="898" fill="#C2410C">西3.3m公道/SB要</text>
+<text x="500" y="898" fill="#0F766E">南角地(私道+公道)/SB無</text>
+
+<text x="36" y="924" fill="#6B7280">地目</text>
+<text x="280" y="924" fill="#C2410C">畑(農地転用要)</text>
+<text x="500" y="924" fill="#0F766E">宅地(転用不要)</text>
+
+<text x="36" y="950" fill="#6B7280">私道負担</text>
+<text x="280" y="950" fill="#374151">記載なし</text>
+<text x="500" y="950" fill="#374151">あり 56.23m²</text>
+
+<text x="36" y="976" fill="#6B7280">上下水/ガス</text>
+<text x="280" y="976" fill="#374151">上下水有/都市ガス(未引込)</text>
+<text x="500" y="976" fill="#374151">公営水道+下水/プロパン</text>
+
+<text x="36" y="1002" fill="#6B7280">用途/建ぺい容積</text>
+<text x="280" y="1002" fill="#374151">1種住居 60/200</text>
+<text x="500" y="1002" fill="#374151">1種住居 60/200</text>
+
+<text x="36" y="1028" fill="#6B7280">建築条件</text>
+<text x="280" y="1028" fill="#374151">なし</text>
+<text x="500" y="1028" fill="#374151">なし</text>
+</g>
+<text x="36" y="1060" font-size="11" fill="#9CA3AF">出典: athome / ニフティ不動産 / 重ねるハザードマップ(GSI) / 国土地理院API ・ 判定日 2026-06-24</text>
+</svg>
