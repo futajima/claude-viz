@@ -1,0 +1,72 @@
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" role="img" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+  <title>Claude Code制御機構の見直し優先度</title>
+  <desc>記事の知見をユーザー環境に反映する候補を、今すぐ・次点・様子見の3ティアに分類</desc>
+  <rect x="0" y="0" width="700" height="560" fill="none"/>
+  <text x="20" y="34" font-size="20" font-weight="600" fill="#26215C">Claude Code 制御機構の見直し — 反映候補</text>
+  <text x="20" y="56" font-size="13" fill="#5F5E5A">記事「Steering Claude Code」と現環境の照合結果</text>
+
+  <rect x="20" y="78" width="210" height="30" rx="6" fill="#FCEBEB"/>
+  <text x="34" y="98" font-size="14" font-weight="600" fill="#A32D2D">今すぐ検討したい</text>
+
+  <rect x="20" y="118" width="210" height="150" rx="10" fill="#ffffff" stroke="#E24B4A" stroke-width="1.5"/>
+  <text x="34" y="142" font-size="14" font-weight="600" fill="#26215C">A. ペルソナ自動適用を</text>
+  <text x="34" y="162" font-size="12" fill="#444441">  Hook化</text>
+  <text x="34" y="186" font-size="11.5" fill="#5F5E5A">現状: CLAUDE.mdに「忘れたら</text>
+  <text x="34" y="202" font-size="11.5" fill="#5F5E5A">即切替」とプロンプト依存</text>
+  <text x="34" y="224" font-size="11.5" fill="#A32D2D">毎回確実な処理はHookで決定論化</text>
+  <text x="34" y="248" font-size="11.5" fill="#888780">効果 大 / 手間 中</text>
+
+  <rect x="20" y="278" width="210" height="160" rx="10" fill="#ffffff" stroke="#E24B4A" stroke-width="1.5"/>
+  <text x="34" y="302" font-size="14" font-weight="600" fill="#26215C">B. 機密操作ガードを</text>
+  <text x="34" y="322" font-size="12" fill="#444441">  PreToolUse Hookで</text>
+  <text x="34" y="346" font-size="11.5" fill="#5F5E5A">現状: CLAUDE.md変更などは</text>
+  <text x="34" y="362" font-size="11.5" fill="#5F5E5A">「確認する」とプロンプト記述</text>
+  <text x="34" y="384" font-size="11.5" fill="#A32D2D">ssh/secretは既にdeny済。</text>
+  <text x="34" y="400" font-size="11.5" fill="#A32D2D">残りもHookでブロック化できる</text>
+  <text x="34" y="424" font-size="11.5" fill="#888780">効果 大 / 手間 中</text>
+
+  <rect x="245" y="78" width="210" height="30" rx="6" fill="#FAEEDA"/>
+  <text x="259" y="98" font-size="14" font-weight="600" fill="#854F0B">次点で効く</text>
+
+  <rect x="245" y="118" width="210" height="150" rx="10" fill="#ffffff" stroke="#EF9F27" stroke-width="1.5"/>
+  <text x="259" y="142" font-size="14" font-weight="600" fill="#26215C">C. プロジェクト別の</text>
+  <text x="259" y="162" font-size="12" fill="#444441">  Rules / サブCLAUDE.md</text>
+  <text x="259" y="186" font-size="11.5" fill="#5F5E5A">現状: Rules未使用。規約が</text>
+  <text x="259" y="202" font-size="11.5" fill="#5F5E5A">親CLAUDE.mdに集中</text>
+  <text x="259" y="224" font-size="11.5" fill="#854F0B">paths限定で散在規約を分離</text>
+  <text x="259" y="248" font-size="11.5" fill="#888780">効果 中 / 手間 中</text>
+
+  <rect x="245" y="278" width="210" height="160" rx="10" fill="#ffffff" stroke="#EF9F27" stroke-width="1.5"/>
+  <text x="259" y="302" font-size="14" font-weight="600" fill="#26215C">D. memories自動</text>
+  <text x="259" y="322" font-size="12" fill="#444441">  読み込みをHook化</text>
+  <text x="259" y="346" font-size="11.5" fill="#5F5E5A">現状:「参照すること」と</text>
+  <text x="259" y="362" font-size="11.5" fill="#5F5E5A">プロンプトで指示のみ</text>
+  <text x="259" y="384" font-size="11.5" fill="#854F0B">SessionStartで注入可。</text>
+  <text x="259" y="400" font-size="11.5" fill="#854F0B">ただしtokenコスト高に注意</text>
+  <text x="259" y="424" font-size="11.5" fill="#888780">効果 中 / 手間 中</text>
+
+  <rect x="470" y="78" width="210" height="30" rx="6" fill="#F1EFE8"/>
+  <text x="484" y="98" font-size="14" font-weight="600" fill="#444441">様子見でよい</text>
+
+  <rect x="470" y="118" width="210" height="150" rx="10" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+  <text x="484" y="142" font-size="14" font-weight="600" fill="#26215C">E. カスタム</text>
+  <text x="484" y="162" font-size="12" fill="#444441">  Subagent定義</text>
+  <text x="484" y="186" font-size="11.5" fill="#5F5E5A">現状: Fable委譲は口頭方針</text>
+  <text x="484" y="202" font-size="11.5" fill="#5F5E5A">のみ。定義済agentなし</text>
+  <text x="484" y="224" font-size="11.5" fill="#5F5E5A">並列調査が増えたら整備</text>
+  <text x="484" y="248" font-size="11.5" fill="#888780">効果 中 / 手間 中</text>
+
+  <rect x="470" y="278" width="210" height="160" rx="10" fill="#ffffff" stroke="#B4B2A9" stroke-width="1.5"/>
+  <text x="484" y="302" font-size="14" font-weight="600" fill="#26215C">F. 短い手続きの</text>
+  <text x="484" y="322" font-size="12" fill="#444441">  Skill化</text>
+  <text x="484" y="346" font-size="11.5" fill="#5F5E5A">現状: X取得/Windows操作が</text>
+  <text x="484" y="362" font-size="11.5" fill="#5F5E5A">CLAUDE.md内に短く残存</text>
+  <text x="484" y="384" font-size="11.5" fill="#5F5E5A">30行未満なら現状維持が</text>
+  <text x="484" y="400" font-size="11.5" fill="#5F5E5A">コスト効率良。無理に分けない</text>
+  <text x="484" y="424" font-size="11.5" fill="#888780">効果 小 / 手間 小</text>
+
+  <rect x="20" y="458" width="660" height="84" rx="10" fill="#E1F5EE"/>
+  <text x="34" y="482" font-size="13" font-weight="600" fill="#0F6E56">既に良好（変更不要）</text>
+  <text x="34" y="504" font-size="11.5" fill="#085041">・CLAUDE.md行数: グローバル35行 / プロジェクト164行 — 推奨200行以下に収まる</text>
+  <text x="34" y="524" font-size="11.5" fill="#085041">・Skills活用（agent-memory / persona / transcribe / save-restaurant）+ トリガー表 / ssh・secretのpermission deny</text>
+</svg>
