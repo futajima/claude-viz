@@ -1,0 +1,106 @@
+<svg viewBox="0 0 780 1270" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Hiragino Sans, Yu Gothic, sans-serif">
+  <title>TikTok DDR Live 総点検 2026-07-02</title>
+  <desc>収益直結バグ4件、規約・ライセンス3件、ドキュメント乖離3件、設計提案3件の優先度ボード</desc>
+  <rect x="0" y="0" width="780" height="1270" fill="#16181d"/>
+
+  <!-- Header -->
+  <text x="24" y="52" font-size="30" font-weight="bold" fill="#e8eaf0">TikTok DDR Live 総点検</text>
+  <text x="24" y="82" font-size="15" fill="#9aa3b2">2026-07-02 ／ 前提：ギフト収益メイン・BCC所属済み・ゲーム未定・電流未定</text>
+
+  <!-- Section A -->
+  <text x="24" y="128" font-size="19" font-weight="bold" fill="#ff6b6b">A. 収益直結バグ — 最優先で修正</text>
+  <g>
+    <rect x="24" y="142" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="142" width="5" height="54" rx="2.5" fill="#ff6b6b"/>
+    <text x="42" y="165" font-size="16" font-weight="bold" fill="#e8eaf0">A1. 連打ギフトのダイヤ過小評価</text>
+    <text x="42" y="186" font-size="13" fill="#9aa3b2">合計は diamondCount × repeatCount。Rose×100 が Lv1 判定になる</text>
+  </g>
+  <g>
+    <rect x="24" y="204" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="204" width="5" height="54" rx="2.5" fill="#ff6b6b"/>
+    <text x="42" y="227" font-size="16" font-weight="bold" fill="#e8eaf0">A2. 高額演出が安ギフトで即消える</text>
+    <text x="42" y="248" font-size="13" fill="#9aa3b2">Galaxy(1000💎)10秒がRose1個で上書き。優先度制かキューに</text>
+  </g>
+  <g>
+    <rect x="24" y="266" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="266" width="5" height="54" rx="2.5" fill="#ff6b6b"/>
+    <text x="42" y="289" font-size="16" font-weight="bold" fill="#e8eaf0">A3. 視聴者名で XSS（Lv5演出）</text>
+    <text x="42" y="310" font-size="13" fill="#9aa3b2">data.user を innerHTML に直挿し。ニックネーム経由でJS実行可能</text>
+  </g>
+  <g>
+    <rect x="24" y="328" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="328" width="5" height="54" rx="2.5" fill="#ff6b6b"/>
+    <text x="42" y="351" font-size="16" font-weight="bold" fill="#e8eaf0">A4. 0💎ギフトでも妨害発動</text>
+    <text x="42" y="372" font-size="13" fill="#9aa3b2">しきい値 min:0 → パース失敗でも Lv1 が出る。min:1 に</text>
+  </g>
+
+  <!-- Section B -->
+  <text x="24" y="424" font-size="19" font-weight="bold" fill="#ffa94d">B. 規約・ライセンス — 収益メインなので最厳格</text>
+  <g>
+    <rect x="24" y="438" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="438" width="5" height="54" rx="2.5" fill="#ffa94d"/>
+    <text x="42" y="461" font-size="16" font-weight="bold" fill="#e8eaf0">B1. ミーム素材はほぼ調達不能と心得る</text>
+    <text x="42" y="482" font-size="13" fill="#9aa3b2">Skibidi等は他者著作物。画像/SE導入時は素材ライセンス表を必須に</text>
+  </g>
+  <g>
+    <rect x="24" y="500" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="500" width="5" height="54" rx="2.5" fill="#ffa94d"/>
+    <text x="42" y="523" font-size="16" font-weight="bold" fill="#e8eaf0">B2. Lv2「電流」→ 光・振動・扇風機を推奨</text>
+    <text x="42" y="544" font-size="13" fill="#9aa3b2">EMS系は危険行為ポリシー抵触＝BANで収益ごと失うリスク</text>
+  </g>
+  <g>
+    <rect x="24" y="562" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="562" width="5" height="54" rx="2.5" fill="#ffa94d"/>
+    <text x="42" y="585" font-size="16" font-weight="bold" fill="#e8eaf0">B3. BCC確認4件を今日投げる</text>
+    <text x="42" y="606" font-size="13" fill="#9aa3b2">待ち時間が長い作業。TikFinity可否・演出素材基準は文面で残す</text>
+  </g>
+
+  <!-- Section C -->
+  <text x="24" y="658" font-size="19" font-weight="bold" fill="#ffd43b">C. ドキュメントと実体の乖離</text>
+  <g>
+    <rect x="24" y="672" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="672" width="5" height="54" rx="2.5" fill="#ffd43b"/>
+    <text x="42" y="695" font-size="16" font-weight="bold" fill="#e8eaf0">C1. server.py が README と別物</text>
+    <text x="42" y="716" font-size="13" fill="#9aa3b2">旧TikTokLive受信のまま。--test はポート/キー不一致で今は機能せず</text>
+  </g>
+  <g>
+    <rect x="24" y="734" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="734" width="5" height="54" rx="2.5" fill="#ffd43b"/>
+    <text x="42" y="757" font-size="16" font-weight="bold" fill="#e8eaf0">C2. デプロイ先が 192.168.0.12 のまま</text>
+    <text x="42" y="778" font-size="13" fill="#9aa3b2">gamePC.local に統一済みのはず（DHCP対策）。README未反映</text>
+  </g>
+  <g>
+    <rect x="24" y="796" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="796" width="5" height="54" rx="2.5" fill="#ffd43b"/>
+    <text x="42" y="819" font-size="16" font-weight="bold" fill="#e8eaf0">C3. OutFox / NotITG の記述矛盾</text>
+    <text x="42" y="840" font-size="13" fill="#9aa3b2">Serenity曲が絶対条件なら OutFox 本命。決めたら両doc同期</text>
+  </g>
+
+  <!-- Section D -->
+  <text x="24" y="892" font-size="19" font-weight="bold" fill="#74c0fc">D. 設計提案 — 収益を伸ばす側</text>
+  <g>
+    <rect x="24" y="906" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="906" width="5" height="54" rx="2.5" fill="#74c0fc"/>
+    <text x="42" y="929" font-size="16" font-weight="bold" fill="#e8eaf0">D1. 「お助け」ギフトが未実装</text>
+    <text x="42" y="950" font-size="13" fill="#9aa3b2">妨害派 vs 救済派の対立構造が双方向課金を生む。定石の型</text>
+  </g>
+  <g>
+    <rect x="24" y="968" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="968" width="5" height="54" rx="2.5" fill="#74c0fc"/>
+    <text x="42" y="991" font-size="16" font-weight="bold" fill="#e8eaf0">D2. SEが自分に聞こえるか未検証</text>
+    <text x="42" y="1012" font-size="13" fill="#9aa3b2">OBS音声モニタリング設定次第。「妨害が自分に届く」前提の穴</text>
+  </g>
+  <g>
+    <rect x="24" y="1030" width="732" height="54" rx="8" fill="#1f2430"/>
+    <rect x="24" y="1030" width="5" height="54" rx="2.5" fill="#74c0fc"/>
+    <text x="42" y="1053" font-size="16" font-weight="bold" fill="#e8eaf0">D3. Doge文字の回転が効いてない</text>
+    <text x="42" y="1074" font-size="13" fill="#9aa3b2">inline rotate が keyframes の transform に上書きされる小バグ</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="24" y="1112" width="732" height="122" rx="10" fill="#1c2b22"/>
+  <text x="42" y="1142" font-size="17" font-weight="bold" fill="#69db7c">着手順のおすすめ</text>
+  <text x="42" y="1170" font-size="14" fill="#c9d4cd">① BCCに確認4件を投げる（待ちが長い）→ ② バグA1〜A3修正</text>
+  <text x="42" y="1194" font-size="14" fill="#c9d4cd">③ README同期（C1〜C3）→ ④ お助けギフト設計（D1）</text>
+  <text x="42" y="1218" font-size="13" fill="#8fa396">良い点：TikFinityハイブリッド判断・ストリーク重複防止・ライセンス管理運用は堅実</text>
+</svg>
