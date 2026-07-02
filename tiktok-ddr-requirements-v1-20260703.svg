@@ -1,0 +1,69 @@
+<svg viewBox="0 0 380 1210" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif">
+<rect x="0" y="0" width="380" height="1210" fill="#FAF9F5"/>
+<text x="20" y="36" font-size="18" font-weight="600" fill="#2C2C2A">TikTok DDR配信 要件定義 v1</text>
+<text x="20" y="56" font-size="11" fill="#5F5E5A">2026-07-03 調査統合サマリ</text>
+
+<rect x="20" y="72" width="340" height="92" rx="10" fill="#FAECE7" stroke="#993C1D"/>
+<text x="34" y="94" font-size="11" fill="#993C1D">権利</text>
+<text x="34" y="114" font-size="13" font-weight="600" fill="#4A1B0C">DDR実機の収益化配信は危険</text>
+<text x="34" y="133" font-size="11" fill="#712B13">KONAMIは個人へ原則不許諾・DDR用ガイドラインなし</text>
+<text x="34" y="150" font-size="11" fill="#712B13">安全解＝ITGmania＋配信許諾済みオリジナル曲パック</text>
+
+<rect x="20" y="176" width="340" height="92" rx="10" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="34" y="198" font-size="11" fill="#534AB7">技術</text>
+<text x="34" y="218" font-size="13" font-weight="600" fill="#26215C">公式ギフトAPIは存在しない</text>
+<text x="34" y="237" font-size="11" fill="#3C3489">非公式Connector＋Eulerstream（月次で壊れる前提）</text>
+<text x="34" y="254" font-size="11" fill="#3C3489">PC配信はLIVE Studio（Windows専用）経由が現実解</text>
+
+<rect x="20" y="280" width="340" height="92" rx="10" fill="#E1F5EE" stroke="#0F6E56"/>
+<text x="34" y="302" font-size="11" fill="#0F6E56">市場</text>
+<text x="34" y="322" font-size="13" font-weight="600" fill="#04342C">リズムゲーム×ギフト連動は空白地帯</text>
+<text x="34" y="341" font-size="11" fill="#085041">妨害マイクラは確立ジャンル（月収100万円級の実例）</text>
+<text x="34" y="358" font-size="11" fill="#085041">踏みゲー版の先行者はまだ確認できない</text>
+
+<text x="20" y="404" font-size="14" font-weight="600" fill="#2C2C2A">ギフト連動の設計（4段階）</text>
+<rect x="20" y="418" width="340" height="66" rx="8" fill="#F1EFE8"/>
+<text x="32" y="440" font-size="12" font-weight="600" fill="#444441">Lv0 いいね・コメント（無課金の入口）</text>
+<text x="32" y="458" font-size="11" fill="#5F5E5A">いいね累積で選曲ゲージ・コメントが画面に流れる</text>
+<rect x="20" y="492" width="340" height="66" rx="8" fill="#F1EFE8"/>
+<text x="32" y="514" font-size="12" font-weight="600" fill="#444441">Lv1 小ギフト → オーバーレイ演出</text>
+<text x="32" y="532" font-size="11" fill="#5F5E5A">画面エフェクト・効果音・名前呼び。ゲームに影響なし</text>
+<rect x="20" y="566" width="340" height="66" rx="8" fill="#F1EFE8"/>
+<text x="32" y="588" font-size="12" font-weight="600" fill="#444441">Lv2 中ギフト → ゲーム内介入</text>
+<text x="32" y="606" font-size="11" fill="#5F5E5A">妨害＝加速・視界隠し・ミラー／応援＝正常化・回復</text>
+<rect x="20" y="640" width="340" height="66" rx="8" fill="#F1EFE8"/>
+<text x="32" y="662" font-size="12" font-weight="600" fill="#444441">Lv3 大ギフト → 選曲・チャレンジ解放</text>
+<text x="32" y="680" font-size="11" fill="#5F5E5A">難易度リクエスト。公式Viewer Wishesも併用</text>
+
+<text x="20" y="738" font-size="14" font-weight="600" fill="#2C2C2A">システム構成（Windows gamePC 1台）</text>
+<rect x="20" y="752" width="340" height="44" rx="8" fill="#FAECE7"/>
+<text x="190" y="770" font-size="12" font-weight="600" fill="#4A1B0C" text-anchor="middle">TikTok LIVE（ギフト・コメント・いいね）</text>
+<text x="190" y="787" font-size="11" fill="#712B13" text-anchor="middle">視聴者アクションが発生</text>
+<path d="M190 796 L190 810" stroke="#888780" stroke-width="1.5"/>
+<rect x="20" y="812" width="340" height="44" rx="8" fill="#EEEDFE"/>
+<text x="190" y="830" font-size="12" font-weight="600" fill="#26215C" text-anchor="middle">TikTok-Live-Connector＋Eulerstream</text>
+<text x="190" y="847" font-size="11" fill="#3C3489" text-anchor="middle">イベント取得（非公式・無料枠から）</text>
+<path d="M190 856 L190 870" stroke="#888780" stroke-width="1.5"/>
+<rect x="20" y="872" width="340" height="44" rx="8" fill="#EEEDFE"/>
+<text x="190" y="890" font-size="12" font-weight="600" fill="#26215C" text-anchor="middle">Node.jsブリッジ（WebSocket配信）</text>
+<text x="190" y="907" font-size="11" fill="#3C3489" text-anchor="middle">ギフトIDをアクションに変換・ログ保存</text>
+<path d="M100 916 L100 930" stroke="#888780" stroke-width="1.5"/>
+<path d="M280 916 L280 930" stroke="#888780" stroke-width="1.5"/>
+<rect x="20" y="932" width="165" height="56" rx="8" fill="#E1F5EE"/>
+<text x="102" y="952" font-size="12" font-weight="600" fill="#04342C" text-anchor="middle">OBSオーバーレイ</text>
+<text x="102" y="969" font-size="11" fill="#085041" text-anchor="middle">Lv0-1の演出</text>
+<rect x="195" y="932" width="165" height="56" rx="8" fill="#E1F5EE"/>
+<text x="277" y="952" font-size="12" font-weight="600" fill="#04342C" text-anchor="middle">ITGmania Lua</text>
+<text x="277" y="969" font-size="11" fill="#085041" text-anchor="middle">Lv2-3のゲーム介入</text>
+<path d="M190 988 L190 1002" stroke="#888780" stroke-width="1.5"/>
+<rect x="20" y="1004" width="340" height="44" rx="8" fill="#F1EFE8" stroke="#888780"/>
+<text x="190" y="1022" font-size="12" font-weight="600" fill="#2C2C2A" text-anchor="middle">OBS合成 → 仮想カメラ → LIVE Studio</text>
+<text x="190" y="1039" font-size="11" fill="#5F5E5A" text-anchor="middle">ゲーム画面＋足元カメラ＋アバターワイプ</text>
+
+<text x="20" y="1084" font-size="14" font-weight="600" fill="#2C2C2A">ロードマップ</text>
+<text x="20" y="1108" font-size="11" fill="#444441">P0（〜2週間）要件の実機検証・疎通・曲パック権利確認</text>
+<text x="20" y="1128" font-size="11" fill="#444441">P1（0〜3ヶ月）毎日固定時間30〜60分＋切り抜き短尺ループ</text>
+<text x="20" y="1148" font-size="11" fill="#444441">P2（3〜6ヶ月）ゲーム内連動を本番化・フォーマット確立</text>
+<text x="20" y="1168" font-size="11" fill="#444441">P3（6ヶ月〜）フルトラ・PK Battle・YouTube展開を判断</text>
+<text x="20" y="1194" font-size="11" fill="#888780">非公式ライブラリ断絶時も配信が成立する縮退設計を前提とする</text>
+</svg>
