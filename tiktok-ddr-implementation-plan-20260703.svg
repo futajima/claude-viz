@@ -1,0 +1,58 @@
+<svg viewBox="0 0 380 1170" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif">
+<rect x="0" y="0" width="380" height="1170" fill="#FAF9F5"/>
+<text x="20" y="36" font-size="18" font-weight="600" fill="#2C2C2A">TikTok DDR配信 実装計画</text>
+<text x="20" y="56" font-size="11" fill="#5F5E5A">2026-07-03 裏取り調査反映版</text>
+
+<text x="20" y="88" font-size="14" font-weight="600" fill="#2C2C2A">裏取り結果</text>
+<rect x="20" y="100" width="340" height="58" rx="10" fill="#E1F5EE" stroke="#0F6E56"/>
+<text x="32" y="120" font-size="12" font-weight="600" fill="#04342C">ITGmania制御＝実現可能性「高」</text>
+<text x="32" y="138" font-size="11" fill="#085041">WebSocket API標準搭載。Lua1枚追加でOK。前例なし</text>
+<rect x="20" y="166" width="340" height="58" rx="10" fill="#E1F5EE" stroke="#0F6E56"/>
+<text x="32" y="186" font-size="12" font-weight="600" fill="#04342C">Connector v2.4.0仕様確定</text>
+<text x="32" y="204" font-size="11" fill="#085041">ESM専用・Node 20+。連打確定処理パターンも判明</text>
+<rect x="20" y="232" width="340" height="58" rx="10" fill="#FAEEDA" stroke="#BA7517"/>
+<text x="32" y="252" font-size="12" font-weight="600" fill="#412402">確率演出は禁止圏・60分制限は実測へ</text>
+<text x="32" y="270" font-size="11" fill="#633806">ギフト連動は決定的設計に。ギフト要求発言も禁止</text>
+<rect x="20" y="298" width="340" height="58" rx="10" fill="#FAEEDA" stroke="#BA7517"/>
+<text x="32" y="318" font-size="12" font-weight="600" fill="#412402">楽曲はClub Fantastic S1+2（32曲）一択</text>
+<text x="32" y="336" font-size="11" fill="#633806">配信許可明文あり。収益化文言は公式に要確認</text>
+
+<text x="20" y="392" font-size="14" font-weight="600" fill="#2C2C2A">フェーズ0（今週）判定ゲート付き検証</text>
+<rect x="20" y="406" width="340" height="252" rx="10" fill="#FFFFFF" stroke="#D3D1C7"/>
+<text x="32" y="430" font-size="11" font-weight="600" fill="#444441">P0-1 代理店確認（プロデューサー）</text>
+<text x="44" y="447" font-size="11" fill="#5F5E5A">RTMPキー発行可否・ギフト受領の有効性</text>
+<text x="32" y="470" font-size="11" font-weight="600" fill="#444441">P0-2 Club Fantastic公式へ収益化可否確認</text>
+<text x="44" y="487" font-size="11" fill="#5F5E5A">英語文面はClaudeが起草</text>
+<text x="32" y="510" font-size="11" font-weight="600" fill="#444441">P0-3 gamePCへITGmania導入＋疎通PoC（Claude）</text>
+<text x="44" y="527" font-size="11" fill="#5F5E5A">HttpEnable設定→WebSocket echoテスト</text>
+<text x="32" y="550" font-size="11" font-weight="600" fill="#444441">P0-4 Eulerstreamキー取得→受信PoC（両者）</text>
+<text x="44" y="567" font-size="11" fill="#5F5E5A">任意のLIVEからイベント取得を確認</text>
+<text x="32" y="590" font-size="11" font-weight="600" fill="#444441">P0-5 テスト配信で実測（両者）</text>
+<text x="44" y="607" font-size="11" fill="#5F5E5A">60分制限・キャプチャ品質・ギフト表示</text>
+<text x="32" y="630" font-size="11" font-weight="600" fill="#444441">P0-6 既存overlay/資産の再利用判定（Claude）</text>
+<text x="44" y="647" font-size="11" fill="#5F5E5A">コードはNode版へ置換・assetsは流用候補</text>
+
+<text x="20" y="700" font-size="14" font-weight="600" fill="#2C2C2A">フェーズ1（〜3週間）MVP</text>
+<rect x="20" y="714" width="340" height="112" rx="10" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="32" y="736" font-size="12" font-weight="600" fill="#26215C">Lv0-1で顔なし配信スタート</text>
+<text x="32" y="756" font-size="11" fill="#3C3489">bridge core＋OBSオーバーレイ＋シミュレータ</text>
+<text x="32" y="774" font-size="11" fill="#3C3489">毎日固定時間30〜60分＋切り抜き短尺の往復</text>
+<text x="32" y="796" font-size="11" fill="#3C3489">基準: ギフト→3秒以内に演出反映</text>
+<text x="32" y="813" font-size="11" fill="#3C3489">基準: ブリッジ停止でも配信は継続できる</text>
+
+<text x="20" y="862" font-size="14" font-weight="600" fill="#2C2C2A">フェーズ2（〜6週間）ゲーム内連動</text>
+<rect x="20" y="876" width="340" height="112" rx="10" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="32" y="898" font-size="12" font-weight="600" fill="#26215C">Lv2-3投入＋アバターワイプ追加</text>
+<text x="32" y="918" font-size="11" fill="#3C3489">GiftEventBridge.luaで妨害/応援mod・選曲</text>
+<text x="32" y="936" font-size="11" fill="#3C3489">TikFinityフォールバック常備</text>
+<text x="32" y="958" font-size="11" fill="#3C3489">基準: mod自動復帰・同時適用上限・60fps維持</text>
+<text x="32" y="975" font-size="11" fill="#3C3489">基準: Lua例外がゲームを落とさない</text>
+
+<text x="20" y="1024" font-size="14" font-weight="600" fill="#2C2C2A">フェーズ3（収益安定後）</text>
+<rect x="20" y="1038" width="340" height="76" rx="10" fill="#F1EFE8" stroke="#888780"/>
+<text x="32" y="1060" font-size="11" fill="#444441">PK Battle・フルボディトラッキング投資判断</text>
+<text x="32" y="1078" font-size="11" fill="#444441">YouTube切り抜き展開・常連/ランキングシステム</text>
+<text x="32" y="1096" font-size="11" fill="#444441">KPI: 月20万円・他プラットフォーム展開判断</text>
+
+<text x="20" y="1140" font-size="11" fill="#888780">詳細: tiktok-ddr-live/docs/implementation-plan.md</text>
+</svg>
