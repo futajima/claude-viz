@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 640" role="img">
+  <title>もどかしいゲーム リファレンスマップ</title>
+  <desc>Foddian系ゲームの優先度別リーディングリストとゲーム論の参考文献</desc>
+  <rect x="0" y="0" width="380" height="640" fill="#ffffff"/>
+  <text x="190" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1a1a1a">“もどかしさ”リファレンスマップ</text>
+
+  <rect x="24" y="48" width="332" height="112" rx="8" fill="#e8eef8" stroke="#6b8fc9"/>
+  <text x="36" y="70" font-family="sans-serif" font-size="13" font-weight="700" fill="#1a3a6b">Tier 1 必修（操作＝笑いの直系）</text>
+  <text x="36" y="92" font-family="sans-serif" font-size="11" fill="#33456b">Baby Steps ／ Octodad ／ Surgeon Simulator</text>
+  <text x="36" y="112" font-family="sans-serif" font-size="11" fill="#33456b">Manual Samuel ／ I Am Bread</text>
+  <text x="36" y="132" font-family="sans-serif" font-size="11" fill="#33456b">GIRP ／ CLOP ／ Sexy Hiking（GOIの元ネタ）</text>
+  <text x="36" y="150" font-family="sans-serif" font-size="10" fill="#6b7a99">※QWOP・GIRP・CLOPはfoddy.netで無料</text>
+
+  <rect x="24" y="172" width="332" height="94" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="36" y="194" font-family="sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Tier 2 登山系（進行ロストの設計）</text>
+  <text x="36" y="216" font-family="sans-serif" font-size="11" fill="#555555">Jump King ／ Pogostuck ／ PEAK（2025）</text>
+  <text x="36" y="236" font-family="sans-serif" font-size="11" fill="#555555">A Difficult Game About Climbing ／ Peaks of Yore</text>
+  <text x="36" y="256" font-family="sans-serif" font-size="11" fill="#555555">Chained Together ／ Golfing Over It ほか</text>
+
+  <rect x="24" y="278" width="332" height="94" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="36" y="300" font-family="sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Tier 3 ラグドール・協調（配信映え）</text>
+  <text x="36" y="322" font-family="sans-serif" font-size="11" fill="#555555">Human: Fall Flat ／ Heave Ho ／ Gang Beasts</text>
+  <text x="36" y="342" font-family="sans-serif" font-size="11" fill="#555555">Struggling ／ Biped ／ Mount Your Friends</text>
+  <text x="36" y="362" font-family="sans-serif" font-size="11" fill="#555555">Toribash ／ Sumotori Dreams ほか</text>
+
+  <rect x="24" y="384" width="332" height="94" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="36" y="406" font-family="sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Tier 4 発想拡張（周辺と対照）</text>
+  <text x="36" y="428" font-family="sans-serif" font-size="11" fill="#555555">Snake Pass ／ Enviro-Bear 2000 ／ Probably Archery</text>
+  <text x="36" y="448" font-family="sans-serif" font-size="11" fill="#555555">Death Stranding ／ Jusant（怒りなしの対照）</text>
+  <text x="36" y="468" font-family="sans-serif" font-size="11" fill="#555555">イライラ棒 ／ Flappy Bird ／ Trials系</text>
+
+  <rect x="24" y="490" width="332" height="112" rx="8" fill="#e6f4ea" stroke="#4c9a5f"/>
+  <text x="36" y="512" font-family="sans-serif" font-size="13" font-weight="700" fill="#1b5e20">ゲーム論（読む・観る）</text>
+  <text x="36" y="534" font-family="sans-serif" font-size="11" fill="#2e5c38">Foddy「Eleven Flavors of Frustration」（必読）</text>
+  <text x="36" y="554" font-family="sans-serif" font-size="11" fill="#2e5c38">Juul『The Art of Failure』／ Swink『Game Feel』</text>
+  <text x="36" y="574" font-family="sans-serif" font-size="11" fill="#2e5c38">Suits『The Grasshopper』／ ベルクソン『笑い』</text>
+  <text x="36" y="594" font-family="sans-serif" font-size="11" fill="#2e5c38">Koster『「おもしろい」のゲームデザイン』</text>
+</svg>
