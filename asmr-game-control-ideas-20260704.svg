@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 610" role="img">
+  <title>ASMR失敗ゲーム 操作エンジン アイデアマップ</title>
+  <desc>もどかしい操作の仕組み6案、着せ替え可能なシチュエーション、推し3方向の組み合わせ</desc>
+  <rect x="0" y="0" width="380" height="610" fill="#ffffff"/>
+  <text x="190" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1a1a1a">操作エンジン アイデアマップ</text>
+
+  <text x="30" y="58" font-family="sans-serif" font-size="12" fill="#888888">① 操作エンジン（もどかしさの源泉）</text>
+
+  <rect x="30" y="68" width="155" height="56" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="107" y="91" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">QWOP腕</text>
+  <text x="107" y="110" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555555">関節を別キーで</text>
+  <rect x="195" y="68" width="155" height="56" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="272" y="91" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">振り子・慣性</text>
+  <text x="272" y="110" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555555">止まらない道具</text>
+
+  <rect x="30" y="134" width="155" height="56" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="107" y="157" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">握力とすべり</text>
+  <text x="107" y="176" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555555">落とすと爆音</text>
+  <rect x="195" y="134" width="155" height="56" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="272" y="157" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">息止め</text>
+  <text x="272" y="176" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555555">限界で「ぷはっ」</text>
+
+  <rect x="30" y="200" width="155" height="56" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="107" y="223" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">速度制御</text>
+  <text x="107" y="242" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555555">マウスが止まらない</text>
+  <rect x="195" y="200" width="155" height="56" rx="8" fill="#f5f5f5" stroke="#bbbbbb"/>
+  <text x="272" y="223" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">左右分業</text>
+  <text x="272" y="242" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555555">両手の協調地獄</text>
+
+  <text x="30" y="290" font-family="sans-serif" font-size="12" fill="#888888">② シチュエーション（着せ替え自由）</text>
+  <rect x="30" y="300" width="320" height="66" rx="8" fill="none" stroke="#bbbbbb" stroke-dasharray="4 4"/>
+  <text x="190" y="326" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555555">マイク設置 ／ タッピング ／ 囁き</text>
+  <text x="190" y="348" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555555">スライム ／ 咀嚼 ／ プチプチ ／ 耳かき</text>
+
+  <text x="30" y="398" font-family="sans-serif" font-size="12" fill="#888888">③ 推し3方向（エンジン×シチュ）</text>
+
+  <rect x="30" y="408" width="320" height="52" rx="8" fill="#e8eef8" stroke="#6b8fc9"/>
+  <text x="190" y="429" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a3a6b">A案 QWOP腕 × タッピング配信</text>
+  <text x="190" y="449" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a5f85">もどかしさ純度・笑い最速</text>
+
+  <rect x="30" y="472" width="320" height="52" rx="8" fill="#e8eef8" stroke="#6b8fc9"/>
+  <text x="190" y="493" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a3a6b">B案 慣性＋握力 × マイク設置</text>
+  <text x="190" y="513" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a5f85">GOI感最強・落下の恐怖</text>
+
+  <rect x="30" y="536" width="320" height="52" rx="8" fill="#e8eef8" stroke="#6b8fc9"/>
+  <text x="190" y="557" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#1a3a6b">C案 息止め × 囁き録音</text>
+  <text x="190" y="577" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4a5f85">実装最軽量・皮肉が効いてる</text>
+</svg>
